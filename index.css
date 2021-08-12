@@ -1,0 +1,185 @@
+:root{
+  --primary:#FEAA00;
+  --secondary:#788402;
+  --dark:#4b4f2f;
+  --light:#d5d6ce;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+
+nav li a:hover{
+  font-weight: bolder;
+  color: #FEAA00;
+}
+
+
+  .table{
+justify-content: space-between;
+
+  }
+  .about{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+ 
+  #image{
+      width: 150px;
+      height: 550px;
+  }
+
+ h2{
+     color: #788402;
+     font-weight: bolder;
+ }
+ .unique{
+   text-align: center;
+   color: #788402;
+   margin-top: -20px;
+
+ }
+ .Bio{
+   background-color: #FEAA00;
+   padding: 5px;
+   border-radius: 40px;
+ }
+ .Bio:hover{
+background-color: #788402;
+color: white;
+border-style: none;
+ }
+.services{
+text-align: center;
+padding: 20px;
+}
+ .services i{
+   padding: 15px;
+   border:#4b4f2f;
+   color:#788402 ;
+   border-style: solid;
+   border-radius: 50px;
+   border-width: 1px;
+   justify-content: space-around;
+  text-align: center;
+
+  
+ }
+#logo{
+     color: #FEAA00;
+     font-weight: bolder;
+     font-style: italic;
+ }
+ #btn{
+     background-color: white;
+     border-style: solid;
+     border-color: #788402;
+     color: #788402;
+     border-radius: 40px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-width: 1px;
+ }
+ #btn:hover{
+     background-color:#FEAA00;
+     color: white;
+     border-style: none;
+ }
+ #products{
+     text-align: center;
+ }
+ .products{
+   background-color: #FEAA00;
+ }
+ .contact {
+  padding: 5px;
+  border-color: #788402;
+
+ }
+ footer{
+   /* background-color:#FEAA00 ; */
+   background-color:#788402 ;
+   text-align: center;
+ }
+ footer p{
+   color: white;
+ }
+ footer i{
+  color:#FEAA00 ;
+}
+footer ul a{
+  color: white ;
+}
+footer ul a:hover{
+  color: #FEAA00 ;
+}
+.call{
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+/* .cards{
+  margin:100px auto 0;
+  width: 400px;
+  height: 600px;
+  perspective: 300px;
+}
+.card_inner{
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+.card_inner.is-flipped{
+  transform: rotateY(180deg);
+}
+.card_face{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.2);
+}
+.card_face_front{
+background-image: linear-gradient(to bottom right, var (--primary),var (--secondary));
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card_face_front  h4{
+  color: white;
+  font-size: 35px;
+}
+.card_face_back{
+  background-color: var(--light);
+  transform: rotateY(180 deg);
+}
+.content_header{
+  width: 100%;
+  height: 100% ;
+}
+.card_header{
+  position:relative ;
+  padding: 30px 30px 40px;
+
+}
+.card_header::after{
+  content: ' ';
+  display: block;
+  position: absolute;
+  top:0 ;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0 0 40px 0;
+  background-image: linear-gradient(to bottom right, var (--primary),var (--secondary) 115%);
+}
+   
+  */

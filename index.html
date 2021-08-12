@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+    <title>E-SOKO ||Online groceries & fruits Marketplace</title>
+</head>
+<body>
+
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a id="logo" class="navbar-brand" href="#">E-SOKO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a  class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a  class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Marketplace
+                </a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="image" src="organic-food-background-vegetables-basket_135427-233.jpg" class="d-block w-100" alt="Group-fresh fruits">
+          </div>
+          <div class="carousel-item">
+            <img id="image" src="composition-with-vegetables-fruits-wicker-basket-isolated_135427-239.jpg" class="d-block w-100" alt="fresh fruits and vegetables">
+          </div>
+          <div class="carousel-item">
+            <img id="image" src="fresh-fruits-vegetables_8595-135.jpg" class="d-block w-100" alt="organic fruits and vegetables">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="about">
+      <h2 id="about">-About us-</h2>
+      <p><b>E-soko</b> is a multi-vendor E-commerce website. It was founded in 2020. The idea was fueled by the Covid-19 pandemic. Due to this, the ordinary marketplaces could not be trusted since fruits and vegetables would go for days without being sold and hence people would buy stale products.We noticed that fruits and vegetables were the most essential needs for consumers  to maintain a healthy body. Due to the lock-down put in place, producers reported losses since retailers could not get to the markets to buy the products they needed in their groceries. E-soko was created to connect the producers, consumers and retailers virtually and this could also give jobs to riders or transporters. We say "farm to table" since the platform enables retailers and consumers to place their orders and also gives the producers a platform to showcase their products without necessarily bringing them to the market. We pride ourselves on efficiency and are dedicated to our customers needs. With E-soko, there is something for everyone.</p>
+      <button type="button" class="Bio">Read more...</button>
+      </div>
+<hr>
+<section class="products">
+      <h2 id="products">-Featured Products-</h2>
+
+      <!-- <div class="cards">
+        <div class="card_inner">
+          <div class="card_face card_face_front">
+            <h4>Fresh Fruits</h4>
+
+          </div>
+          <div class="card_face_back">
+            <div class="content">
+              <div class="content_header">
+                <img src="/colorful-fruit_1417-1529.jpg">
+
+              </div>
+              <div class="card_body">
+                <h3>Fruits</h3>
+                <p>Fresh and Juicy fruits directly from the farm</p>
+                <button type="button">Shop ></button>
+
+              </div>
+              
+            </div>
+            
+          </div>
+          
+
+
+        </div>
+
+      </div> -->
+
+      <table class="table">
+        <tr>
+          <td>
+          <div id="card" class="card" style="width: 18rem;">
+            <img src="assorted-mixed-fruits_74190-6961.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fruits</h5>
+              <button href="#" id="btn" class="btn btn-primary">Shop ></button>
+            </div>
+          </div>
+      </td>
+      <td>
+          <div id="card" class="card" style="width: 18rem;">
+            <img src="fruits-vegetables_1112-314.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vegetables</h5>
+              <button href="#" id="btn" class="btn btn-primary">Shop ></button>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div id="card" class="card" style="width: 18rem;">
+            <img src="colorful-fruit_1417-1529.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Meat Products</h5>
+              <button href="#" id="btn" class="btn btn-primary">Shop ></button>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div id="card" class="card" style="width: 18rem;" >
+            <img src="pexels-magda-ehlers-1300972.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dairy Products</h5>
+              <button href="#" id="btn" class="btn btn-primary">Shop ></button>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+      </table>
+    </section>
+      <hr>
+      <div class="services">
+        <h2 class="unique">Why shop with us?</h2>
+        <table>
+          <tr>
+            <td>
+            <i id="organic" class="fa fa-leaf" aria-hidden="true"></i>
+            <h5>100% Organic</h5>
+            <p>We make sure that our customers get fresh and healthy foods that are 100% Organic</p>
+          </td>
+        </td>
+        <td>
+          <i id="customer" class="fa fa-comments-o" aria-hidden="true"></i>
+          <h5> Customer care service</h5>
+          <p>We value our customer's feedback  and we are always ready to answer any questions about our store or guidance about our platform</p>
+        </td>
+      <td>
+          <i id="payment" class="fa fa-credit-card-alt" aria-hidden="true"></i>
+          <h5>Affordable and secure payments</h5>
+          <p>We sell our products at an affordable price and we make sure that there are no middle men involved in our business.</p>
+        </td>
+        <td>
+          <i id="delivery" class="fa fa-truck" aria-hidden="true"></i>
+           <h5>Free Delivery</h5>
+          <p>We offer free and safe delivery to our customers and make sure sure their orders are all delivered.</p>
+        </td>
+        </tr>
+      </table>
+        </div>
+        <footer>
+          <h2 class="call">-Get in touch-</h2>
+          <form class="contact">
+            <p><i class="fa fa-phone-square" aria-hidden="true"></i>   +254 706 595 504</p>
+            <p><i class="fa fa-envelope-open" aria-hidden="true"></i>   esokogroceries@gmail.com</p>
+            <p><i class="fa fa-whatsapp" aria-hidden="true"></i>   +254 702 228 809</p>
+            <p><i class="fa fa-home" aria-hidden="true"></i>   Lavigne Building, 142 Kirinyaga RD Nairobi</p>
+          </form>
+
+          <ul class="footer-icons">
+            <a href="https://www.linkedin.com/in/grace-kendi-4727361b5/" class="fa fa-linkedin"></a>
+  
+            <a href="https://twitter.com/Kendi_Gracee" class="fa fa-twitter"></a>
+
+            <a href="https://www.instagram.com/grace_mugendi/" class="fa fa-instagram" ></a>
+  
+            <a href="https://web.facebook.com/winniegrace.lavington.1/?_rdc=1&_rdr" class="fa fa-facebook"></a>
+          </ul>
+        </footer>
+<script src="app.js"></script>
+      </body>
+</html>
